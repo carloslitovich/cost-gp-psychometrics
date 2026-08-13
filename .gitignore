@@ -1,0 +1,17 @@
+# ============================================================
+# Files excluded from Git
+# ============================================================
+
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio project-specific files
+.Rproj.user/
+
+# macOS system files
+.DS_Store
+
+# Temporary files
+*.tmp

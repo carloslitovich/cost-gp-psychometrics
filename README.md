@@ -1,0 +1,45 @@
+# COST-GP Psychometric Validation in R
+
+This repository demonstrates an R-based workflow for scoring and evaluating
+the psychometric properties of the Comprehensive Score for Financial Toxicity
+(COST).
+
+## Purpose
+
+The repository was developed as a reproducible demonstration of psychometric
+analysis in R. All data included in this repository are synthetic and do not
+contain real participant information.
+
+## Current Workflow
+
+### 1. Synthetic Data Generation
+
+`R/00_generate_synthetic_data.R`
+
+Generates synthetic COST item responses and creates predefined missing-data
+cases to test the scoring algorithm.
+
+### 2. COST Scoring
+
+`R/01_scale_scoring.R`
+
+Implements COST Version 2 scoring procedures, including:
+
+- Scoring of FT1-FT11
+- Reverse scoring of applicable items
+- Exclusion of FT12 from the total score
+- Assessment of item completion
+- Prorating when more than 50% of scored items are answered
+- Missing total scores when 50% or fewer items are answered
+- Validation of scoring boundary conditions
+
+Higher COST scores indicate better financial well-being.
+
+## Data
+
+The `synthetic_data/` directory contains simulated data generated specifically
+for this repository. These data are not derived from study participants.
+
+## Software
+
+Analyses are conducted in R using reproducible R scripts.
