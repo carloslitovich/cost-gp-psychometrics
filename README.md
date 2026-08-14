@@ -61,3 +61,17 @@ A one-factor CFA and the correctly specified two-factor CFA were fit using WLSMV
 The one-factor model demonstrated poor fit, whereas the two-factor model recovered the known synthetic structure and demonstrated excellent global fit. This module illustrates how confirmatory factor analysis can be used to evaluate competing latent-variable structures in ordinal patient-reported outcome data.
 
 All data are synthetic and are not derived from real participants.
+
+## Internal Consistency Reliability
+
+Internal consistency reliability was evaluated using the synthetic ordinal COST-GP data.
+
+Ordinal alpha was calculated for the full 11-item scale using the polychoric correlation matrix. Alpha-if-item-deleted statistics were also examined to assess whether removal of individual items improved internal consistency.
+
+Model-based composite omega was estimated separately for the General Financial Situation and Medical Care-Related Financial Impact composites using the two-factor CFA model.
+
+The synthetic data demonstrated high internal consistency for the full 11-item scale and high composite reliability for both factors. Removal of individual items did not improve ordinal alpha.
+
+Importantly, the synthetic data were generated from a known two-factor structure despite demonstrating high full-scale internal consistency. This illustrates that high internal consistency does not, by itself, establish unidimensionality.
+
+All results are based entirely on synthetic data and do not represent findings from real study participants.
