@@ -43,3 +43,21 @@ for this repository. These data are not derived from study participants.
 ## Software
 
 Analyses are conducted in R using reproducible R scripts.
+
+## Confirmatory Factor Analysis Demonstration
+
+Synthetic ordinal COST-GP data were generated from a known two-factor latent structure based on a literature-reported COST item grouping.
+
+The simulated factors were:
+
+- General Financial Situation: FT1, FT6, FT7, FT11
+- Medical Care-Related Financial Impact: FT2, FT3, FT4, FT5, FT9, FT10
+- FT8 cross-loaded on both factors
+
+The two latent factors were simulated as moderately correlated.
+
+A one-factor CFA and the correctly specified two-factor CFA were fit using WLSMV estimation for ordinal indicators.
+
+The one-factor model demonstrated poor fit, whereas the two-factor model recovered the known synthetic structure and demonstrated excellent global fit. This module illustrates how confirmatory factor analysis can be used to evaluate competing latent-variable structures in ordinal patient-reported outcome data.
+
+All data are synthetic and are not derived from real participants.
